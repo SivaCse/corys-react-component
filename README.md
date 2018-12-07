@@ -14,9 +14,9 @@ npm i @summitllc/corys-react-component
 
 ## Props
 
-| Name    | Default | Required | Description             |
-| ------- | ------- | -------- | ----------------------- |
-| message |         | Yes      | The thing ya wanna say. |
+| Name    | Default      | Required | Description             |
+| ------- | ------------ | -------- | ----------------------- |
+| message | Hello world! | Yes      | The thing ya wanna say. |
 
 ## Usage Example
 
@@ -27,6 +27,8 @@ import CorysReactComponent from "@summitllc/corys-react-component";
 function Demo() {
   return <CorysReactComponent message={"Your message here"} />;
 }
+
+export default Demo;
 ```
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
