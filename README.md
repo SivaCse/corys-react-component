@@ -16,7 +16,7 @@ Cory's React component is the premeire component on Summit's org.
 
 ```js
 import React from "react";
-import CorysReactComponent from "@summmitllc/corys-react-component";
+import CorysReactComponent from "@summitllc/corys-react-component";
 
 function Demo() {
   return <CorysReactComponent message={"Your message here"} />;
