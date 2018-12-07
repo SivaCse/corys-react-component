@@ -1,6 +1,6 @@
 {
   "name": "@summitllc/corys-react-component",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "summit-react-component React component",
   "main": "lib/index.js",
   "module": "es/index.js",
