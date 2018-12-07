@@ -22,8 +22,8 @@ describe("Component", () => {
   });
 
   it("displays custom message when passed message on props", () => {
-    render(<Component message="Custom message" />, node, () => {
-      expect(node.innerHTML).toContain("Custom messag");
+    render(<Component message="Custom messag" />, node, () => {
+      expect(node.innerHTML).toContain("Custom message");
     });
   });
 });
