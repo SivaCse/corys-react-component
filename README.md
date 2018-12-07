@@ -4,7 +4,13 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Cory's React component is the premeire component on Summit's org.
+Cory's React component is the premeire Hello World component on Summit's org.
+
+## Install
+
+```
+npm i @summitllc/corys-react-component
+```
 
 ## Props
 
