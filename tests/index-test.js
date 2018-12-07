@@ -17,13 +17,13 @@ describe("Component", () => {
 
   it("displays default message when passed no props", () => {
     render(<Component />, node, () => {
-      expect(node.innerHTML).toContain("Hello World!");
+      expect(node.innerHTML).toBe("Hello World!");
     });
   });
 
   it("displays custom message when passed message on props", () => {
     render(<Component message="Custom messag" />, node, () => {
-      expect(node.innerHTML).toContain("Custom message");
+      expect(node.innerHTML).toBe("Custom message");
     });
   });
 });
