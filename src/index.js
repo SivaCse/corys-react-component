@@ -1,9 +1,6 @@
 import React from "react";
+import Table from "react-bootstrap/lib/Table";
 
-export default function({ message = "Hello World!" }) {
-  return (
-    <div>
-      <h2>{message}</h2>
-    </div>
-  );
+export default function(props) {
+  return <Table>{props.children}</Table>;
 }

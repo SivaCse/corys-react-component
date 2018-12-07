@@ -21,7 +21,9 @@
     "test:watch": "nwb test-react --server",
     "publish-beta": "npm run publish --beta"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-bootstrap": "^0.32.4"
+  },
   "peerDependencies": {
     "react": "16.x"
   },

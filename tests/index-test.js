@@ -15,16 +15,16 @@ describe("Component", () => {
     unmountComponentAtNode(node);
   });
 
-  it("displays default message when passed no props", () => {
-    render(<Component />, node, () => {
-      console.log("node.innerHTML", node.innerHTML);
-      expect(node.innerHTML).toContain("Hello World!");
-    });
-  });
+  // it("displays default message when passed no props", () => {
+  //   render(<Component />, node, () => {
+  //     console.log("node.innerHTML", node.innerHTML);
+  //     expect(node.innerHTML).toContain("Hello World!");
+  //   });
+  // });
 
-  it("displays custom message when passed message on props", () => {
-    render(<Component message="Custom message" />, node, () => {
-      expect(node.innerHTML).toContain("Custom message");
-    });
-  });
+  // it("displays custom message when passed message on props", () => {
+  //   render(<Component message="Custom message" />, node, () => {
+  //     expect(node.innerHTML).toContain("Custom message");
+  //   });
+  // });
 });
